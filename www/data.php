@@ -18,7 +18,7 @@ define('API_KEY', '');
 define('BASIC_KEY', '');
 
 // Basic security check.
-if (!isset($_GET['key']) || $_GET['key'] != BASIC_KEY) {
+if (isset($_GET['key']) && $_GET['key'] === BASIC_KEY) {
 
   // Try to connect to the database.
   try {

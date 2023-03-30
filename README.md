@@ -1,5 +1,7 @@
 # Arduino Indoor Outdoor Temperatures
 
+## No longer receiving security updates
+
 Using an Arduino Uno Wifi to collect indoor temperatures and the Open Weather Map API to collect outdoor temperatures.
 
 ## Installing
